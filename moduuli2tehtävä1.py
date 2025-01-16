@@ -51,13 +51,14 @@ def print_walter_white():
 @@@@@@@@@@@@@@@++:-+##%%@%@@@#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@#%%%%%%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 '''
-    name = input("What's your name? ")
+    name = input("What's my name? ")
 
     if name == "Walter White":
         print(art)
         print("You're God Damn Right.")
+        print("It is " + name +" .")
     else:
-        print(art)
+        print("..."+ name + "?")
         print("You're God Damn Wrong.")
 
 print_walter_white()
