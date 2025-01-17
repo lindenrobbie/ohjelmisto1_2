@@ -12,3 +12,5 @@ print()
 print(f"Lukujen summa on {sum}.")
 print(f"Lukujen tulo on {product}.")
 print(f"Lukujen keskiarvo on {average}.")
+
+#overwrote wrong version
