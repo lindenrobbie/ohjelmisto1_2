@@ -15,7 +15,6 @@ def main():
 
     while True:
 
-        print('Please remember to add semicolon after SQL query.')
         tablerequest = input('Syötä tähän ICAO koodi: ')
         sql = f"SELECT airport.name FROM airport WHERE airport.ident = '{tablerequest}';"
         print("")
@@ -35,7 +34,7 @@ def main():
                         print(f'Output: {rivi[0]}')
                         print("")
                 else:
-                    print('No results found.')
+                    print(f'Syöttämäsi ICAO koodilla {tablerequest} ei löytynyt tulosta.')
                     print("")
 
 main()
