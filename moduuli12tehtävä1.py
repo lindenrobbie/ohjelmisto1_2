@@ -1,9 +1,9 @@
 import requests
 
-osoite = f"https://api.chucknorris.io/jokes/random"
+addy = f"https://api.chucknorris.io/jokes/random"
 
-response = requests.get(osoite)
+response = requests.get(addy)
 data = response.json()
-vitsi = data["value"]
+joke = data["value"]
 
-print(f"\n{vitsi}")
+print(f"\n{joke}")
