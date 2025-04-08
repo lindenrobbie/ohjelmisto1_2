@@ -18,8 +18,8 @@ y_unit_circle = np.sin(theta)
 
 
 plt.figure(figsize=(19.2, 14.4))
-plt.plot(theta, x_unit_circle, color='green', linestyle='--', label='cos(x)')  # Käyrä sinistä väriä ja katkoviivoja
-plt.plot(theta, y_unit_circle, color='blue', linestyle=':', label='sin(x)')   # Käyrä punaisella väriä ja pisteviivoja
+plt.plot(theta, x_unit_circle, color='green', linestyle='--', label='cos(x)')
+plt.plot(theta, y_unit_circle, color='blue', linestyle=':', label='sin(x)')
 plt.scatter(x, y, color='red', zorder=5)
 
 
