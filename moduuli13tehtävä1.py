@@ -18,16 +18,16 @@ def prime(luku):
                 break
 
         answer = {
-            'number': luku,
-            'status': status,
+            'Number': luku,
+            'Status': status,
             'isPrime': isPrime
         }
 
     except ValueError:
         answer = {
-            'number' : luku,
-            'status' : 400,
-            'kuvaus' : 'ValueError tapahtui :('
+            'Number' : luku,
+            'Status' : 400,
+            'Kuvaus' : 'ValueError tapahtui :('
         }
 
     json_answer = json.dumps(answer)
